@@ -10662,7 +10662,7 @@ declare namespace cc {
 		
 		``` 
 		*/
-		static join(): string;		
+		static join(...path:string[]): string;		
 		/**
 		!#en Get the ext name of a path including '.', like '.png'.
 		!#zh 返回 Path 的扩展名，包括 '.'，例如 '.png'。
